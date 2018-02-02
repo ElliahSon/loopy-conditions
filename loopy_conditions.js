@@ -41,10 +41,6 @@ console.log(stringOfNumbers(12));
  * @return { Number }
  */
 var array1 = [1, 2, 3, 4, 5, 6];
-var sum = 0
-for (i = 0; i < array1.length; i++){
-	sum += array1[i];
-}
 
 /**
  * Create a function called 'getEvens'.
