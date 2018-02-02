@@ -6,8 +6,14 @@
  * @param  { Number } b
  * @return { Number }
  */
-
-
+function greaterNumber (a, b) {
+	if (a > b) {
+		return a;
+	} else if (b > a) {
+		return b;
+	}
+}
+console.log(greaterNumber(1.1, 1.2))
 /**
  * Create a function called 'stringOfNumbers'.
  * This function will take in 1 parameter
@@ -17,17 +23,28 @@
  * @param  { Number } n
  * @return { String }
  */
-
-
+ var text = "";
+ var i;
+function stringOfNumbers (n) {
+	for (i = 0; i < n; i++ ){
+		text += i + ", ";
+	}
+}
+console.log(stringOfNumbers(12));
 /**
  * Create a function called 'sumOfArray'.
- * This function will take in a parameter that is an array.
+ * This function will take in a parameter that is an array
+ .
  * Your task is to take the array and return the sum of all the numbers in the array.
  * You must check if the item in the array is a number
  * @param  { array } arr
  * @return { Number }
  */
-
+var array1 = [1, 2, 3, 4, 5, 6];
+var sum = 0
+for (i = 0; i < array1.length; i++){
+	sum += array1[i];
+}
 
 /**
  * Create a function called 'getEvens'.
@@ -36,7 +53,7 @@
  * @param  { array } arr
  * @return { array }
  */
-
+function getEvens()
 
 /**
  * Create a function called 'getOdds'.
